@@ -45,7 +45,7 @@ const App = () => {
    <Button handleClick={addToText} symbol={2}/>
    <Button handleClick={addToText} symbol={3}/>
    <Button handleClick={addToText} symbol={"+"} color={buttonColor}/>
-   </div>
+   </div> 
    <div className='row'>
    <Button handleClick={addToText} symbol={0}/>
    <Button handleClick={addToText} symbol={"."}/>
