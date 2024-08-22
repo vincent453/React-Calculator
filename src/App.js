@@ -49,7 +49,7 @@ const App = () => {
    <div className='row'>
    <Button handleClick={addToText} symbol={0}/>
    <Button handleClick={addToText} symbol={"."}/>
-   <Button handleClick={calculateResult} symbol={"-"}/>
+   <Button handleClick={addToText} symbol={"-"}/>
    <Button handleClick={reactInput} symbol={"Clear"} color={buttonColor}/>
    </div>
    <Button  symbol={"Calculate"} color="red" handleClick={calculateResult}/>
